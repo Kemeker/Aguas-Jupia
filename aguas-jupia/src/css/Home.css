@@ -42,13 +42,14 @@ a{
 }
 .history{
   color: black;
+  
 }
 .card-body{
   
   padding: 50px;
   border-radius: 25px;
 }
-.icone{  /*controla todos os icones */
+.icone{  
   
   width: 49px;
   height: 49px;
@@ -57,9 +58,13 @@ a{
   width: 61px;
   height: 61px;
   margin-bottom: -14px;
-
 }
 
+.icone2{
+  width: 49px;
+  height: 49px;
+  border-radius:20px;
+}
 
 
 

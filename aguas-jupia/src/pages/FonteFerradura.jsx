@@ -6,7 +6,7 @@ function FonteFerradura(){
     return(
         <>
             
-            <img src={Mural} alt="Mural" />
+            
         </>
     )
 }
