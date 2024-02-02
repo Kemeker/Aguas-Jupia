@@ -6,7 +6,7 @@ body {
   justify-content: center;
   height: 100vh; 
   margin: 0; 
-  background: url('../src/assets/fundo.jpeg');
+  background: url('../src/assets/aguateste.png');
   background-size: cover;
 }
 
@@ -17,7 +17,7 @@ body {
 
 .fonte-ferradura, .wpp, .insta, .history {
   background-color: #D9D9D9;
-  border-radius: 10px;
+  border-radius: 35px;
   height: 50px;
   width: 400px;
   display: flex;
@@ -30,18 +30,42 @@ a{
   text-decoration: none;
 }
 .fonte-ferradura{
-  color: blue;
+  color: rgb(4, 4, 172);
 }
 .wpp{
   color: green;
 }
 .insta{
-  color: blueviolet;
+  color: rgb(147, 78, 212);
 }
 .history{
   color: black;
 }
 .card-body{
-  background: url('../src/assets/fundo.jpeg');
+  
   padding: 50px;
+  border-radius: 25px;
 }
+.icone{  /*controla todos os icones */
+  
+  width: 49px;
+  height: 49px;
+}
+.icone1{
+  width: 61px;
+  height: 61px;
+  margin-bottom: -14px;
+
+}
+
+
+
+
+footer {
+  
+  color: white;
+  text-align: center;
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+ }
