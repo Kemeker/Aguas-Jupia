@@ -24,7 +24,8 @@ body {
   align-items: center;
   justify-content: center;
   margin: 20px; 
-  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 a{
   text-decoration: none;
@@ -34,6 +35,7 @@ a{
 }
 .wpp{
   color: green;
+  
 }
 .insta{
   color: rgb(147, 78, 212);
