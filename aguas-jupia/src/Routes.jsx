@@ -10,11 +10,8 @@ const AppRoutes = () => {
     <Routes>
       <Route path="/" element={<Home />} /> 
       <Route path="/FonteFerradura" element={<FonteFerradura />} />
-<<<<<<< HEAD
-      <Route path='/SobreNos' element={<SobreNos />} />
-=======
       <Route path="/SobreNos" element={<SobreNos />} />
->>>>>>> 4ad81944e3784080d1f3d4bf47e2aa921d0bc110
+
       
     </Routes>
   );
