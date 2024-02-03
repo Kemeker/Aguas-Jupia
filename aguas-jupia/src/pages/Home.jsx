@@ -32,8 +32,8 @@ function Home() {
           
 
           <li className='social-link history'>
-            <img className='icone2' src={iconeHistoria} alt="historia"/>
-            <Link to="/SobreNos" className=' history' >Sobre nós</Link>
+            <img className='icone' src={iconeHistoria} alt="historia"/>
+            <a href="#" className='btn btn-primary history' target='_blank' rel='noopener noreferrer'>Sobre Nós</a>
           </li>
         </ul>
       </div>
