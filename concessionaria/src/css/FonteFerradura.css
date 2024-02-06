@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+    background: url('src/assets/aguateste.png');
+    background-size: cover;
+}
+h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.d-block{
+    width: 900px;
+    height: 700px;
+    margin: 0px;
+}

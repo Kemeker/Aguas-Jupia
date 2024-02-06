@@ -6,8 +6,7 @@ body {
   justify-content: center;
   height: 100vh; 
   margin: 0; 
-  background: url('src/assets/aguateste.png');
-  background-size: cover;
+  
 }
 
 .logo {
@@ -26,15 +25,15 @@ body {
   margin: 20px; 
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+  
 }
-a{
-  text-decoration: none;
-}
+
 .fonte-ferradura{
   color: rgb(4, 4, 172);
 }
 .wpp{
   color: green;
+  
   
 }
 .insta{
