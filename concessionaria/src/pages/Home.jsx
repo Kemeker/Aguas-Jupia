@@ -12,27 +12,27 @@ function Home() {
   return (
     <div className='container mx-auto'>
       <div className='card-body'>
-        <img className='logo' src={logoImage} alt="logo"/>
+        <img className=' logo img-fluid logo' src={logoImage} alt="logo"/>
         
-        <ul className='social-links list-unstyled'>
-          <li className='social-link fonte-ferradura'>
+        <ul className='social-links list-unstyled '>
+          <li className='social-link fonte-ferradura col-sm-6 col-md-6'>
             <img className='icone1' src={iconeFonte} alt="fonte"/> 
             <Link to="/FonteFerradura" className=' fonte-ferradura' >Fonte Ferradura</Link>
           </li>
           
-          <li className='social-link wpp'>
+          <li className='social-link wpp col-sm-6 col-md-6'>
             <img className='icone' src={iconeWpp} alt="wpp"/>
             <a href="https://wa.me/49999518238" className='wpp' target='_blank' rel='noopener noreferrer'>Whatsapp</a>
           </li>
 
-          <li className='social-link insta'>
+          <li className='social-link insta col-sm-6 col-md-6'>
             <img className='icone' src={iconeInsta} alt="insta"/>
             <a href="https://www.instagram.com/marcosandrecossa/" className='insta' target='_blank' rel='noopener noreferrer'>Instagram</a>
           </li>
 
           
 
-          <li className='social-link history'>
+          <li className='social-link history col-sm-6 col-md-6'>
             <img className='icone2' src={iconeHistoria} alt="historia"/>
             <Link to='/SobreNos' className='history'>Sobre nós</Link>
           </li>
