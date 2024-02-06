@@ -6,7 +6,7 @@ body {
   justify-content: center;
   height: 100vh; 
   margin: 0; 
-  background: url('/src/assets/aguateste.png');
+  background: url('src/assets/aguateste.png');
   background-size: cover;
 }
 

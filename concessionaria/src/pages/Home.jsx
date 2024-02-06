@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Home.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import logoImage from '../assets/AguaAmericas.jpg';
 import iconeFonte from '../assets/iconeFonte.png';
 import iconeWpp from '../assets/iconeWpp.png';
