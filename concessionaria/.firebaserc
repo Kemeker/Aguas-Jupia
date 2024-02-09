@@ -1,5 +1,10 @@
 {
   "projects": {
-    "default": "concessionaria-jupia"
-  }
+    "default": "concessionaria-jupia",
+    "production": "concessionaria-jupia",
+    "producao": "agua-mineral-jupia",
+    "staging": "concessionaria-jupia"
+  },
+  "targets": {},
+  "etags": {}
 }
