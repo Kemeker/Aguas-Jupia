@@ -9,6 +9,18 @@ import iconeWpp from '../assets/iconeWpp.png';
 import iconeInsta from '../assets/iconeInsta.png';
 import iconeHistoria from '../assets/iconeHistoria.png';
 
+
+/*
+const logoImage = {
+  name: 'logoImage',
+  imageUrl: 'https://www.fusati.com.br/wp-content/uploads/2021/05/O-Que-e-agua-Mineral-1080x675.jpeg',
+  imageSize: 280,
+}
+Exemplo 
+*/
+
+
+
 function Home() {
   return (
     <div className='container mx-auto'>
@@ -16,9 +28,11 @@ function Home() {
 
         <img 
           className='img-fluid logo' 
-          src={logoImage} alt="logo"
+          src={logoImage} 
+          alt="Logo"
           srcSet={`${logoImage} 300w, ${logoImage} 768w, ${logoImage} 1280w`}
           sizes='(max-width: 300px) 280px, (max-width: 768px) 600px, 800px'
+
         />
           
         <ul className='social-links list-unstyled'>
