@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../css/FonteFerradura.css'
+import '../css/Home.css'
 import Analise from '../assets/Fotos/analise.jpeg'
 import Analise2 from '../assets/Fotos/analise2.jpeg'
 import Drone2 from '../assets/Fotos/drone2.jpeg'
