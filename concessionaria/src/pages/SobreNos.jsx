@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 
 
@@ -6,12 +7,12 @@ import React from 'react'
 
 
 function SobreNos(){
-    return(
-      <>
-          
-
-      </>
-    )
+  return(
+    <Footer />
+  )
 }
+    
+    
+
 
 export default SobreNos

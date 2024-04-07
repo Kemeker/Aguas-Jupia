@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../css/Home.css'
+// import '../css/Home.css'
 import Analise from '../assets/Fotos/analise.jpeg'
 import Analise2 from '../assets/Fotos/analise2.jpeg'
 import Drone2 from '../assets/Fotos/drone2.jpeg'
@@ -10,6 +10,7 @@ import Bomba from '../assets/Fotos/bomba.jpeg'
 import Bomba2 from '../assets/Fotos/bomba2.jpeg'
 import Agua from '../assets/Fotos/agua.jpeg'
 import Letreiro from '../assets/Fotos/ferradura.jpeg'
+import Footer from '../components/Footer'
 
 
 
@@ -132,6 +133,7 @@ function FonteFerradura(){
                         <span className='visually-hidden'>Next</span>
                     </button>
                 </div>
+               <Footer / > 
             </>
    
 
@@ -141,5 +143,7 @@ function FonteFerradura(){
         
     )
 }
+
+
 
 export default FonteFerradura

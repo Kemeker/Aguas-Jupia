@@ -2,22 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '../css/Home.css'
+// import '../css/Home.css'
 import logoImage from '../assets/AguaAmericas.jpg';
 import iconeFonte from '../assets/iconeFonte.png';
 import iconeWpp from '../assets/iconeWpp.png';
 import iconeInsta from '../assets/iconeInsta.png';
 import iconeHistoria from '../assets/iconeHistoria.png';
+import Footer from '../components/Footer'
 
 
-/*
-const logoImage = {
-  name: 'logoImage',
-  imageUrl: 'https://www.fusati.com.br/wp-content/uploads/2021/05/O-Que-e-agua-Mineral-1080x675.jpeg',
-  imageSize: 280,
-}
-Exemplo 
-*/
 
 
 
@@ -64,8 +57,13 @@ function Home() {
           </li>
         </ul>
       </div>
+      <Footer/ >
     </div>
+    
   );
+  
 }
+
+
 
 export default Home;

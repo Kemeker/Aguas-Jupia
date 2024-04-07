@@ -1,18 +1,14 @@
 // Routes.jsx
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from '../src/pages/Home';  
-import FonteFerradura from '../src/pages/FonteFerradura'
-import SobreNos from '../src/pages/SobreNos'
+import NewHome from '../src/pages/NewHome';  
+
+
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} /> 
-      <Route path="/FonteFerradura" element={<FonteFerradura />} />
-      <Route path="/SobreNos" element={<SobreNos />} />
-
-      
+      <Route path="/" element={<NewHome />} /> 
     </Routes>
   );
 };
@@ -20,3 +16,7 @@ const AppRoutes = () => {
 export default AppRoutes;
 
 
+/*
+      <Route path="/FonteFerradura" element={<FonteFerradura />} />
+      <Route path="/SobreNos" element={<SobreNos />} />
+*/      
