@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Logo from '../assets/fiveicon.png'
+import { Link } from 'react-router-dom';
 
 
 function NavBar(){
@@ -9,22 +10,22 @@ function NavBar(){
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
             
             <div className="container-fluid">
-                <img src={Logo} alt="" width="50" height="46" class="d-inline-block align-text-top" />
+                <img src={Logo} alt="" width="45" height="43" class="d-inline-block align-text-top" />
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
                     <span class="navbar-toggler-icon"></span>
                     
                 </button>    
             </div>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Fonte</a>
+                    <li className="nav-item">
+                       <Link to='/Fonte' className="nav-link active">Fonte</Link>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Whatsapp</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="https://wa.me/49999518238" target='_blank' rel='noopener noreferrer'>WhatsApp</a>
                     </li>
                     
                 </ul>
