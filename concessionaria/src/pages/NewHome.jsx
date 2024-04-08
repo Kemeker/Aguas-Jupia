@@ -8,6 +8,7 @@ import NavBar from "../components/NavBar";
 
 
 
+
 function NewHome(){
     const styleFigure = {
         
@@ -31,6 +32,7 @@ function NewHome(){
         <div>
     
             <NavBar />
+            
             
         </div>      
         
