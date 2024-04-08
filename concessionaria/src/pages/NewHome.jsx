@@ -21,8 +21,8 @@ function NewHome(){
 
     }
     const styleTumb = {
-        width: '100px',
-        height: '300px'
+        height: "200px", 
+        Width: "2000px"
         
 
     }
@@ -35,6 +35,7 @@ function NewHome(){
     
             <NavBar  />
             <Tumb />
+            <h1>Destaques</h1>
             
             
             
