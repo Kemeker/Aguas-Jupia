@@ -4,9 +4,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Drone2 from '../assets/Fotos/drone2.jpeg';
 
 
-function Card(){
+function Card({style}){
     return(
-        <div className="card" >
+        <div className="card" style={style}>
             <img src={Drone2} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">Card title</h5>

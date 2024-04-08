@@ -4,6 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Background from '../assets/aguateste.png'
 import Figure from '../components/Figure'
 import Card from '../components/Card'
+import NavBar from "../components/NavBar";
 
 
 
@@ -18,7 +19,8 @@ function NewHome(){
 
     }
     const styleCard = {
-        width: '18rem'
+        width: '18rem',
+        
 
     }
    
@@ -27,9 +29,11 @@ function NewHome(){
 
     return(
         <div>
-            <Card style={styleCard} />
-            <Figure style={styleFigure} />
-        </div>
+    
+            <NavBar />
+            
+        </div>      
+        
     
 
     )
