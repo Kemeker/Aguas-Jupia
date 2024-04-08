@@ -32,7 +32,7 @@ function NewHome(){
         <div>
     
             <NavBar />
-            <Card />
+            
             <SequenciaCard style={styleCard}/>
             
             

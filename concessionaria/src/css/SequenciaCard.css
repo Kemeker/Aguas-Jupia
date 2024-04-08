@@ -1,0 +1,11 @@
+
+
+.card-img-top {
+    height: 200px; /* ou qualquer altura desejada */
+    object-fit: cover;
+  }
+  
+  .card {
+    min-height: 350px; /* ou a altura mínima necessária para acomodar o conteúdo do cartão */
+  }
+  
