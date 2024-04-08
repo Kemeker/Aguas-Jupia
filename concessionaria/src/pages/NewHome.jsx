@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Background from '../assets/aguateste.png'
-import Figure from '../components/Figure'
+import SequenciaCard from '../components/SequenciaCard'
 import Card from '../components/Card'
 import NavBar from "../components/NavBar";
 
@@ -32,6 +32,10 @@ function NewHome(){
         <div>
     
             <NavBar />
+            <Card />
+            <SequenciaCard style={styleCard}/>
+            
+            
             
             
             
