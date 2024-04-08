@@ -5,6 +5,7 @@ import Background from '../assets/aguateste.png'
 import SequenciaCard from '../components/SequenciaCard'
 import Card from '../components/Card'
 import NavBar from "../components/NavBar";
+import Tumb from '../components/Tumb'
 
 
 
@@ -19,8 +20,9 @@ function NewHome(){
         backgroundPosition: 'center',
 
     }
-    const styleCard = {
-        width: '18rem',
+    const styleTumb = {
+        width: '100px',
+        height: '300px'
         
 
     }
@@ -31,9 +33,9 @@ function NewHome(){
     return(
         <div>
     
-            <NavBar />
+            <NavBar  />
+            <Tumb />
             
-            <SequenciaCard style={styleCard}/>
             
             
             

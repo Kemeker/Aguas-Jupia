@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import '../css/SequenciaCard.css'
+
 import Analise from '../assets/Fotos/analise.jpeg'
 import Analise2 from '../assets/Fotos/analise2.jpeg'
 import Drone from '../assets/Fotos/drone.jpeg'
@@ -34,7 +34,7 @@ function SequenciaCard({style}){
                 </div>
                 <div className="col">
                     <div className="card h-100">
-                    <img src={Analise} className="card-img-top" alt="..." />
+                    <img src={Drone} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -43,7 +43,7 @@ function SequenciaCard({style}){
                 </div>
                 <div className="col">
                     <div className="card h-100">
-                    <img src={Analise2} className="card-img-top" alt="..." />
+                    <img src={Drone2} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

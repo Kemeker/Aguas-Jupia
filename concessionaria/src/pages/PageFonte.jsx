@@ -15,7 +15,7 @@ import Letreiro from '../assets/Fotos/ferradura.jpeg'
 
 function FonteFerradura(){
     return(
-            <>
+            <div className="container">
                 <div className="title-section">
                     <h1>Agua Mineral Jupia</h1>
                     <ul>
@@ -133,8 +133,8 @@ function FonteFerradura(){
                     </button>
                 </div>
                
+            </div>
             
-            </>
 
         
         
