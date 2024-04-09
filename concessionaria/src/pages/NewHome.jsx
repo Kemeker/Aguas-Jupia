@@ -1,47 +1,35 @@
-import React from "react";
+import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Background from '../assets/aguateste.png'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import Background from '../assets/garrafa.png'
 import SequenciaCard from '../components/SequenciaCard'
 import Card from '../components/Card'
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar"
 import Tumb from '../components/Tumb'
+import Info from "../components/Infos"
 
 
 
 
 function NewHome(){
-    const styleFigure = {
-        
-        width: "100%",
-        height: "100vh", 
+    const style = {
         backgroundImage: `url(${Background})`, 
         backgroundSize: 'cover', 
-        backgroundPosition: 'center',
-
+        backgroundPosition: 'center center', 
+        backgroundRepeat: 'no-repeat',
+        height: '75vh', 
+        marginTop: '40px'
     }
-    const styleTumb = {
-        height: "200px", 
-        Width: "2000px"
-        
-
-    }
-   
-
-
-
     return(
+
         <div>
-    
-            <NavBar  />
-            <Tumb />
-            <h1>Destaques</h1>
             
+            <NavBar /> 
             
-            
-            
-            
-            
+                <div style={style}>
+                    <Tumb  /> 
+                </div>
+            <Info /> 
         </div>      
         
     
