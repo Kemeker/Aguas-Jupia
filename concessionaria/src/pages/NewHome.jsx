@@ -17,8 +17,8 @@ function NewHome(){
         backgroundSize: 'cover', 
         backgroundPosition: 'center center', 
         backgroundRepeat: 'no-repeat',
-        height: '75vh', 
-        marginTop: '40px'
+        height: '74vh', 
+        marginTop: '5px'
     }
     return(
 
